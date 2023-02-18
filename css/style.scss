@@ -294,12 +294,12 @@ p.subtitle {
     color: #fff;
 }
 .rotating-slider ul.slides li:nth-of-type(1){
-    background: url(../img/img1.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(2){
-    background: url(../img/img2.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -309,27 +309,27 @@ p.subtitle {
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(4){
-    background: url(../img/img4.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(5){
-    background: url(../img/img5.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(6){
-    background: url(../img/img6.png);
+    background: url(../img/img5.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(7){
-    background: url(../img/img1.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(8){
-    background: url(../img/img2.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -339,22 +339,22 @@ p.subtitle {
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(4){
-    background: url(../img/img4.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(10){
-    background: url(../img/img5.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(11){
-    background: url(../img/img6.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rotating-slider ul.slides li:nth-of-type(12){
-    background: url(../img/img6.png);
+    background: url(../img/img3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -442,13 +442,16 @@ p.subtitle {
 }
 
 @media (max-width: 850px) {
+    .swiper-slide.corners.swiper-slide-next {
+        overflow: unset;
+    }
     header.site-header {
         top: 0;
         left: 0;
         width: 100%;
     }
     .rotating-slider-parent {
-        height: 45em;
+        height: 35em;
     }
     .rotating-slider {
         top: 17em;
